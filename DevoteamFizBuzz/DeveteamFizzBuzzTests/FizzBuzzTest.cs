@@ -22,16 +22,23 @@ namespace DeveteamFizzBuzzTests
         { 
             Assert.That("1".Equals(fizzBuzz.GetTextFromNumber(1)));
         }
+
         [Test]
         public void ShouldReturn2When2()
         { 
             Assert.That("2".Equals(fizzBuzz.GetTextFromNumber(2)));
         }
+
         [Test]
         public void ShouldReturnFizzWhen3()
         {
             Assert.That("Fizz".Equals(fizzBuzz.GetTextFromNumber(3)));
         }
-         
+
+        [Test]
+        public void ShouldReturnFizzWhen6()
+        {
+            Assert.That("Fizz".Equals(fizzBuzz.GetTextFromNumber(6)));
+        }
     }
 } 
