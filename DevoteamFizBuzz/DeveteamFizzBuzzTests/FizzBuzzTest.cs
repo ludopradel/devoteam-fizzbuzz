@@ -40,5 +40,10 @@ namespace DeveteamFizzBuzzTests
         {
             Assert.That("Fizz".Equals(fizzBuzz.GetTextFromNumber(6)));
         }
+        [Test]
+        public void ShouldReturnBuzzWhen5()
+        {
+            Assert.That("Buzz".Equals(fizzBuzz.GetTextFromNumber(5)));
+        }
     }
 } 
