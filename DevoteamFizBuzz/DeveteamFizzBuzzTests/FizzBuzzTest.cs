@@ -9,17 +9,24 @@ namespace DeveteamFizzBuzzTests
     [TestFixture]
     class FizzBuzzTest
     {
+        FizzBuzz fizzBuzz;
+
+        [SetUp]
+        public void InitializeTest()
+        {
+            fizzBuzz = new FizzBuzz();
+        }
+
         [Test]
         public void ShouldReturn1When1()
-        {
-            FizzBuzz fizzBuzz = new FizzBuzz();
+        { 
             Assert.That("1".Equals(fizzBuzz.GetTextFromNumber(1)));
         }
         [Test]
         public void ShouldReturn2When2()
-        {
-            FizzBuzz fizzBuzz = new FizzBuzz();
+        { 
             Assert.That("2".Equals(fizzBuzz.GetTextFromNumber(2)));
         }
+         
     }
 }
