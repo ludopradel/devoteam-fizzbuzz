@@ -8,6 +8,8 @@ namespace DevoteamFizBuzz
     {
         public string GetTextFromNumber(int number)
         {
+            if (number == 3)
+                return "Fizz";
             return number.ToString();
         } 
         
