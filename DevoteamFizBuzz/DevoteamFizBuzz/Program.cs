@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DevoteamFizBuzz
+namespace DevoteamFizzBuzz
 {
     class Program
     {
