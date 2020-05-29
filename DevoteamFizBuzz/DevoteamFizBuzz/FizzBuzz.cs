@@ -6,9 +6,9 @@ namespace DevoteamFizBuzz
 {
     public class FizzBuzz
     {
-        public object GetTextFromNumber(int v)
+        public string GetTextFromNumber(int number)
         {
-            throw new NotImplementedException();
+            return "1";
         }
     }
 }
