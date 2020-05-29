@@ -9,6 +9,7 @@ namespace DevoteamFizBuzz
         public string GetTextFromNumber(int number)
         {
             return number.ToString();
-        }
+        } 
+        
     }
 }
