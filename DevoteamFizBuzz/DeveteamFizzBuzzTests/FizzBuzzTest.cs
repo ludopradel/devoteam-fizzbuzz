@@ -15,5 +15,11 @@ namespace DeveteamFizzBuzzTests
             FizzBuzz fizzBuzz = new FizzBuzz();
             Assert.That("1".Equals(fizzBuzz.GetTextFromNumber(1)));
         }
+        [Test]
+        public void ShouldReturn2When2()
+        {
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            Assert.That("2".Equals(fizzBuzz.GetTextFromNumber(2)));
+        }
     }
 }
